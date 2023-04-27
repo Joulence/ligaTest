@@ -2,6 +2,8 @@
 @import './base/mixins';
 @import './base/fonts';
 
+@import './blocks/header';
+
 
 * {
     padding: 0;
@@ -14,8 +16,6 @@ html {
 
 body {
     margin: 0;
-    color: #fff;
-    max-width: 600px;
 }
 
 h1,
@@ -27,16 +27,11 @@ h6 {
     margin: 0;
 }
 
-h1 {
-    font-weight: 600;
-}
-
 .container {
-    padding: 0 4%;
+    padding: 0 5.2%;
 }
 
 a {
-    color: #212121;
     text-decoration: none;
 }
 
