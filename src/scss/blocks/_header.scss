@@ -7,6 +7,14 @@
         justify-content: space-between;
         align-items: center;
 
+        &__logo {
+            display: flex;
+            div {
+                margin-right: 38px;
+                cursor: pointer;
+            }
+        }
+
         &__links {
             ul {
                 display: flex;
