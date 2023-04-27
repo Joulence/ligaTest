@@ -5,6 +5,7 @@ font-family: 'Source Sans Pro', sans-serif;
 .header {
   background: #1e1e1e;
   padding: 18px 0;
+  position: relative;
 }
 .header-inner {
   display: flex;
@@ -12,11 +13,7 @@ font-family: 'Source Sans Pro', sans-serif;
   align-items: center;
 }
 .header-inner__logo {
-  display: flex;
-}
-.header-inner__logo div {
-  margin-right: 38px;
-  cursor: pointer;
+  transition: margin-left 0.5s;
 }
 .header-inner__links ul {
   display: flex;
@@ -35,37 +32,42 @@ font-family: 'Source Sans Pro', sans-serif;
   width: 0;
   position: fixed;
   z-index: 1;
-  top: 0;
   left: 0;
-  background-color: #111;
+  background-color: #F7F7F7;
   overflow-x: hidden;
   transition: 0.5s;
-  padding-top: 60px;
+  padding-top: 45px;
 }
-
+.sidenav ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.sidenav li {
+  padding: 0 20px 0 25px;
+}
 .sidenav a {
-  padding: 8px 8px 8px 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   text-decoration: none;
-  font-size: 25px;
-  color: #818181;
-  display: block;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: #1E1E1E;
   transition: 0.3s;
-}
-
-.sidenav a:hover {
-  color: #f1f1f1;
-}
-
-.sidenav .closebtn {
-  position: absolute;
-  top: 0;
-  right: 25px;
-  font-size: 36px;
-  margin-left: 50px;
 }
 
 #body {
   transition: margin-left 0.5s;
+}
+
+#openMenu {
+  cursor: pointer;
+  position: absolute;
+  left: 30px;
+  top: 30%;
 }
 
 @media screen and (max-height: 450px) {

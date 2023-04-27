@@ -1,6 +1,7 @@
 .header {
     background: #1e1e1e;
     padding: 18px 0;
+    position: relative;
 
     &-inner {
         display: flex;
@@ -8,11 +9,7 @@
         align-items: center;
 
         &__logo {
-            display: flex;
-            div {
-                margin-right: 38px;
-                cursor: pointer;
-            }
+            transition: margin-left .5s;
         }
 
         &__links {
