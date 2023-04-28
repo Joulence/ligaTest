@@ -1,11 +1,21 @@
 .content {
     padding-top: 40px;
+
     &-title {
         display: flex;
         align-items: center;
         justify-content: space-between;
+
         h3 {
-            
+            font-weight: 700;
+            font-size: 24px;
+            color: #000000;
         }
+    }
+
+    &-text {
+        font-weight: 400;
+        font-size: 16px;
+        color: #404040;
     }
 }
