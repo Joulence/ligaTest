@@ -19,7 +19,7 @@
 
 ## Автори
 
-- Віталій - [Ваш профіль на GitHub](https://github.com/Joulence)
+- Віталій - [LinkedIn](https://www.linkedin.com/in/vitalii-chernysh/)
 
 
 
@@ -44,4 +44,4 @@ To get a copy of this project up and running on your local machine, [click here]
 
 ## Authors
 
-- Vitalii - [Your GitHub Profile](https://github.com/Joulence)
+- Vitalii - [LinkedIn](https://www.linkedin.com/in/vitalii-chernysh/)
