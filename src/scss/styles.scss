@@ -4,6 +4,7 @@
 
 @import './blocks/header';
 @import './blocks/sidenav';
+@import './blocks/content';
 
 
 * {
@@ -17,6 +18,8 @@ html {
 
 body {
     margin: 0;
+    position: relative;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 h1,
@@ -29,7 +32,7 @@ h6 {
 }
 
 .container {
-    padding: 0 5.2%;
+    padding: 0 6%;
 }
 
 a {
@@ -39,4 +42,16 @@ a {
 ul {
     list-style: none;
     margin: 0;
+}
+
+@media (max-width: 1240px) {
+    .container {
+        padding: 0 8%;
+    }
+}
+
+@media (max-width: 1015px) {
+    .container {
+        padding: 0 20px;
+    }
 }

@@ -1,7 +1,7 @@
 .sidenav {
     height: 100%;
     width: 0;
-    position: fixed;
+    position: absolute;
     z-index: 1;
     left: 0;
     background-color: #F7F7F7;
@@ -24,7 +24,6 @@
         justify-content: space-between;
         align-items: center;
         text-decoration: none;
-        font-family: $srcSP;
         font-weight: 700;
         font-size: 16px;
         text-transform: uppercase;
@@ -42,6 +41,16 @@
     position: absolute;
     left: 30px;
     top: 30%;
+}
+
+@media (max-width: 1015px) {
+    #openMenu {
+        svg {
+            path {
+                d: path('M0 0H30V3.33333H0V0ZM0 8.33333H30V11.6667H0V8.33333ZM0 16.6667H30V20H0V16.6667Z');
+            }
+        }
+    }
 }
 
 @media screen and (max-height: 450px) {

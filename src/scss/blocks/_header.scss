@@ -21,12 +21,20 @@
                     a {
                         color: #fff;
                         text-transform: uppercase;
-                        font-family: $srcSP;
                         font-weight: 700;
                         font-size: 16px;
                     }
                 }
             }
+        }
+    }
+}
+
+@media (max-width: 1015px) {
+    .header-inner {
+        justify-content: center;
+        &__links, &__git {
+            display: none;
         }
     }
 }
