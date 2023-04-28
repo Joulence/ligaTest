@@ -31,7 +31,7 @@ This project is a test task for an internship. It is a simple web page built wit
 
 To get a copy of this project up and running on your local machine, [click here](https://joulence.github.io/ligaTest/dist/) or simply follow these steps:
 
-1. Clone the repository to your local machine using the command `git clone git clone https://github.com/Joulence/ligaTest.git`.
+1. Clone the repository to your local machine using the command `git clone https://github.com/Joulence/ligaTest.git`.
 2. Install the required dependencies by running the command `npm install`.
 3. Run the command `npm run dev` to start the development server and watch for changes.
 
