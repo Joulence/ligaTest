@@ -19,7 +19,7 @@
 
 ## Автори
 
-- Вітаій - [Ваш профіль на GitHub](https://github.com/Joulence)
+- Віталій - [Ваш профіль на GitHub](https://github.com/Joulence)
 
 
 
