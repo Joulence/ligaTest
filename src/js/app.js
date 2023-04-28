@@ -4,5 +4,5 @@ import * as menu from "./modules/menu.js";
 
 
 isWebP.isWebP();
-menu.onclick();
+menu.onClick();
 // date.thisDate();
