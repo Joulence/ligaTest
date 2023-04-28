@@ -9,26 +9,29 @@
     transition: 0.5s;
     padding-top: 45px;
 
-    ul {
+    &-list {
         display: flex;
         flex-direction: column;
         gap: 10px;
-    }
 
-    li {
-        padding: 0 20px 0 25px;
-    }
+        li {
+            padding: 0 20px 0 25px;
+        }
 
-    a {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        text-decoration: none;
-        font-weight: 700;
-        font-size: 16px;
-        text-transform: uppercase;
-        color: #1E1E1E;
-        transition: 0.3s;
+        button {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            text-decoration: none;
+
+            span {
+                font-weight: 700;
+                font-size: 16px;
+                text-transform: uppercase;
+                color: #1E1E1E;
+                transition: 0.3s;
+            }
+        }
     }
 }
 

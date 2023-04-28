@@ -42,19 +42,21 @@
   transition: 0.5s;
   padding-top: 45px;
 }
-.sidenav ul {
+.sidenav-list {
   display: flex;
   flex-direction: column;
   gap: 10px;
 }
-.sidenav li {
+.sidenav-list li {
   padding: 0 20px 0 25px;
 }
-.sidenav a {
+.sidenav-list button {
   display: flex;
   justify-content: space-between;
   align-items: center;
   text-decoration: none;
+}
+.sidenav-list button span {
   font-weight: 700;
   font-size: 16px;
   text-transform: uppercase;
@@ -86,6 +88,23 @@
     font-size: 18px;
   }
 }
+.accordion {
+  cursor: pointer;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  transition: 0.4s;
+  background: transparent;
+}
+
+.panel {
+  padding: 0 18px;
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.2s ease-out;
+}
+
 .content {
   padding-top: 40px;
 }
