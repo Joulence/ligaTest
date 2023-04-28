@@ -14,3 +14,15 @@
     overflow: hidden;
     transition: max-height 0.2s ease-out;
 }
+
+.chevron {
+    transition: transform .3s;
+}
+
+.chev-active {
+    transform: rotate(180deg);
+
+    path {
+        fill: #FF0000;
+    }
+}
